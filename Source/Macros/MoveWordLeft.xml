@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>moveWordLeft:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>@b</string>
+	<key>name</key>
+	<string>Move Word Left</string>
+	<key>scope</key>
+	<string>source | text</string>
+	<key>scopeType</key>
+	<string>local</string>
+	<key>uuid</key>
+	<string>F80E6FB6-07B6-11E1-8CBA-6FE322BA3B1D</string>
+</dict>
+</plist>

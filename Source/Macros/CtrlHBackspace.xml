@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>deleteBackward:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^H</string>
+	<key>name</key>
+	<string>Delete Backward</string>
+	<key>scope</key>
+	<string>source | text</string>
+	<key>scopeType</key>
+	<string>global</string>
+	<key>uuid</key>
+	<string>F20CBD18-07E1-11E1-B745-4F9D23E294A2</string>
+</dict>
+</plist>
