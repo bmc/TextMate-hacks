@@ -4,7 +4,7 @@ This repo contains various quick-and-dirty TextMate hacks, mostly for rebinding
 keys. There are several subdirectories here:
 
 * `bundle-hacks` contains hacks to various TextMate bundles (keybindings,
-   mostly.)
+   mostly).
 * `themes` contains themes I use.
 
 ## Bundle Hacks (`bundle-hacks`)
