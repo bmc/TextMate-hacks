@@ -86,3 +86,5 @@ located here:
   (**NOTE**: That's the path on *my* Windows 7 machine, with `username` 
   replaced by my user name, and using the non-portable version of 
   Sublime Text 2. YMMV.)
+
+[Sublime Text 2]: http://www.sublimetext.com/2
