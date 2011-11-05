@@ -1,12 +1,13 @@
 # Some TextMate Hacks
 
 This repo contains various quick-and-dirty TextMate hacks, mostly for rebinding
-keys.
+keys. There are several subdirectories here:
 
-Each subdirectory (e.g., Source) corresponds to a TextMate bundle (e.g.,
-`Source.tmbundle`).
+* `bundle-hacks` contains hacks to various TextMate bundles (keybindings,
+   mostly.)
+* `themes` contains themes I use.
 
-## Bundle Hacks
+## Bundle Hacks (`bundle-hacks`)
 
 Within the `bundle-hacks` directory, each subdirectory corresponds to an
 existing (stock) TextMate bundle. For example, `bundle-hacks/Source` corresponds
