@@ -62,7 +62,4 @@ each bundle, in the Bundle Editor, and rebind those mappings. (I rebind them to
 
 `Source/Macros/CmdDDeleteWordForward.xml`
 
-Assigns *Command-D* to `deleteWordForward`.
-
-**NOTE**: Does not yet work.
-q
+Assigns *Command-D* to `deleteWordForward`, Emacs-style.
