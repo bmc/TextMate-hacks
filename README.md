@@ -35,7 +35,7 @@ command:
 
 	$ osascript -e 'tell app "TextMate" to bundles'
 
-## Specific Macros
+### Specific Macros
 
 `Source/Macros/MoveWordLeft.xml`
 
