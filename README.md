@@ -6,12 +6,14 @@ keys.
 Each subdirectory (e.g., Source) corresponds to a TextMate bundle (e.g.,
 `Source.tmbundle`).
 
-## Macros
+## Bundle Hacks
 
-Each subdirectory *may* contain a Macros subdirectory. If so, that directory
-contains one or more XML files, each representing Mac `plist` source for a
-TextMate macro. These macros are intended to augment an existing TextMate
-bundle.
+Within the `bundle-hacks` directory, each subdirectory corresponds to an
+existing (stock) TextMate bundle. For example, `bundle-hacks/Source` corresponds
+to the TextMate `Source.tmbundle` bundle. Underneath the subdirectory, you'll
+find a `Macros` directory, containing one or more XML files, each representing
+Mac `plist` source for a TextMate macro. These macros are intended to augment an
+existing TextMate bundle.
 
 Installation is straightforward enough. First, ensure that you have a local
 directory for the bundle:
@@ -24,7 +26,7 @@ Replace BUNDLE with the bundle name (e.g., `Source`).
 
 Then, install the macros, one by one, using `plutil`. For instance:
 
-	$ plutil -convert binary1 Bundles/Source.tmbundle/Macros/MoveBackwardWord.plist /path/to/this/repo/Source/Macros/MoveBackwardWord.xml
+	$ plutil -convert binary1 Bundles/Source.tmbundle/Macros/MoveBackwardWord.plist /path/to/this/repo/bundle-hacks/Source/Macros/MoveBackwardWord.xml
 
 Do this for every macro you want to install. Then, either restart TextMate or
 tell it to reload its bundles. To force TextMate to reload its bundles, you can
