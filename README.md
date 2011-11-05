@@ -66,3 +66,23 @@ each bundle, in the Bundle Editor, and rebind those mappings. (I rebind them to
 `Source/Macros/CmdDDeleteWordForward.xml`
 
 Assigns *Command-D* to `deleteWordForward`, Emacs-style.
+
+## Themes
+
+The themes are easy enough to use: Simple download the raw `tmTheme` file
+and double-click it.
+
+### Using a theme with Sublime Text 2
+
+[Sublime Text 2][] can also use TextMate themes. To install a theme in
+Sublime Text 2, download the `thTheme` file and install it in your
+`Packages/User` directory. Then, select it, under
+*Preferences > Color Scheme > User*. The `Packages/User` directory is
+located here:
+
+* Linux: `~/.config/sublime-text-2/Packages/User/`
+* Mac: `/Users/bmc/Library/Application Support/Sublime Text 2/Packages/User`
+* Windows: `C:\Users\username\AppData\Roaming\Sublime Text 2\Packages\User` 
+  (**NOTE**: That's the path on *my* Windows 7 machine, with `username` 
+  replaced by my user name, and using the non-portable version of 
+  Sublime Text 2. YMMV.)
